@@ -41,7 +41,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/t_if_mayor_de_3_numeros.o \
 	${OBJECTDIR}/t_if_mayor_de_4_numeros.o \
 	${OBJECTDIR}/t_precedencia_de_operadores_3_problemas.o \
-	${OBJECTDIR}/t_while_fibonacci.o
+	${OBJECTDIR}/t_while_fibonacci.o \
+	${OBJECTDIR}/t_while_tablas.o
 
 
 # C Compiler Flags
@@ -102,6 +103,11 @@ ${OBJECTDIR}/t_while_fibonacci.o: t_while_fibonacci.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_while_fibonacci.o t_while_fibonacci.c
+
+${OBJECTDIR}/t_while_tablas.o: t_while_tablas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_while_tablas.o t_while_tablas.c
 
 # Subprojects
 .build-subprojects:
