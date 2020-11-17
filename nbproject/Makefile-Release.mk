@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/clase_while.o \
 	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/t_for_tablas.o \
 	${OBJECTDIR}/t_hola_mundo.o \
 	${OBJECTDIR}/t_if_mayor_de_3_numeros.o \
 	${OBJECTDIR}/t_if_mayor_de_4_numeros.o \
@@ -78,6 +79,11 @@ ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
+
+${OBJECTDIR}/t_for_tablas.o: t_for_tablas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_for_tablas.o t_for_tablas.c
 
 ${OBJECTDIR}/t_hola_mundo.o: t_hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
