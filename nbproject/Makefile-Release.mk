@@ -38,6 +38,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/clase_while.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/t_arreglos.o \
+	${OBJECTDIR}/t_arreglos_burbuja.o \
+	${OBJECTDIR}/t_arreglos_max_y_min.o \
+	${OBJECTDIR}/t_arreglos_promediodedatos.o \
 	${OBJECTDIR}/t_for_tablas.o \
 	${OBJECTDIR}/t_hola_mundo.o \
 	${OBJECTDIR}/t_if_mayor_de_3_numeros.o \
@@ -85,6 +88,21 @@ ${OBJECTDIR}/t_arreglos.o: t_arreglos.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos.o t_arreglos.c
+
+${OBJECTDIR}/t_arreglos_burbuja.o: t_arreglos_burbuja.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_burbuja.o t_arreglos_burbuja.c
+
+${OBJECTDIR}/t_arreglos_max_y_min.o: t_arreglos_max_y_min.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_max_y_min.o t_arreglos_max_y_min.c
+
+${OBJECTDIR}/t_arreglos_promediodedatos.o: t_arreglos_promediodedatos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_promediodedatos.o t_arreglos_promediodedatos.c
 
 ${OBJECTDIR}/t_for_tablas.o: t_for_tablas.c
 	${MKDIR} -p ${OBJECTDIR}
