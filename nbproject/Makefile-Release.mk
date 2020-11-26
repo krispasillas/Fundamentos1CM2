@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/t_arreglos.o \
 	${OBJECTDIR}/t_arreglos_burbuja.o \
+	${OBJECTDIR}/t_arreglos_burbujaOpt.o \
 	${OBJECTDIR}/t_arreglos_max_y_min.o \
 	${OBJECTDIR}/t_arreglos_promediodedatos.o \
 	${OBJECTDIR}/t_for_tablas.o \
@@ -93,6 +94,11 @@ ${OBJECTDIR}/t_arreglos_burbuja.o: t_arreglos_burbuja.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_burbuja.o t_arreglos_burbuja.c
+
+${OBJECTDIR}/t_arreglos_burbujaOpt.o: t_arreglos_burbujaOpt.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_burbujaOpt.o t_arreglos_burbujaOpt.c
 
 ${OBJECTDIR}/t_arreglos_max_y_min.o: t_arreglos_max_y_min.c
 	${MKDIR} -p ${OBJECTDIR}

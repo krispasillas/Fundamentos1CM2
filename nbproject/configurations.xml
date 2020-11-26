@@ -16,6 +16,7 @@
       <itemPath>main.c</itemPath>
       <itemPath>t_arreglos.c</itemPath>
       <itemPath>t_arreglos_burbuja.c</itemPath>
+      <itemPath>t_arreglos_burbujaOpt.c</itemPath>
       <itemPath>t_arreglos_max_y_min.c</itemPath>
       <itemPath>t_arreglos_promediodedatos.c</itemPath>
       <itemPath>t_for_tablas.c</itemPath>
@@ -48,6 +49,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="t_arreglos_burbujaOpt.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -76,6 +79,8 @@
       <item path="t_arreglos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="t_arreglos_burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="t_arreglos_burbujaOpt.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="t_arreglos_max_y_min.c" ex="false" tool="0" flavor2="0">
       </item>

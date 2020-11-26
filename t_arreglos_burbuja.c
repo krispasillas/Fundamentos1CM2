@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
  
 	for (j=0; j<cantidad; j++)
 	{
-		printf("Introduce el valor[%i] : " , j);
+		printf("Introduce el valor[%i]: " , j);
 		scanf("%i" , &numeros[j]);
 	}
  
