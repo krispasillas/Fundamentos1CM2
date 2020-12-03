@@ -43,6 +43,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/t_arreglos_max_y_min.o \
 	${OBJECTDIR}/t_arreglos_promediodedatos.o \
 	${OBJECTDIR}/t_for_tablas.o \
+	${OBJECTDIR}/t_funcionesmath.o \
 	${OBJECTDIR}/t_hola_mundo.o \
 	${OBJECTDIR}/t_if_mayor_de_3_numeros.o \
 	${OBJECTDIR}/t_if_mayor_de_4_numeros.o \
@@ -114,6 +115,11 @@ ${OBJECTDIR}/t_for_tablas.o: t_for_tablas.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_for_tablas.o t_for_tablas.c
+
+${OBJECTDIR}/t_funcionesmath.o: t_funcionesmath.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_funcionesmath.o t_funcionesmath.c
 
 ${OBJECTDIR}/t_hola_mundo.o: t_hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
