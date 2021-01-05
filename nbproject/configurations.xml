@@ -12,22 +12,24 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>10_arreglos_promediodedatos.c</itemPath>
+      <itemPath>11_arreglos_max_y_min.c</itemPath>
+      <itemPath>12_arreglos_burbuja.c</itemPath>
+      <itemPath>13_arreglos_burbujaOpt.c</itemPath>
+      <itemPath>14_funcionesmath.c</itemPath>
+      <itemPath>15_menu_grados.c</itemPath>
+      <itemPath>1_hola_mundo.c</itemPath>
+      <itemPath>2_precedencia_de_operadores_3_problemas.c</itemPath>
+      <itemPath>3_if_mayor_de_3_numeros.c</itemPath>
+      <itemPath>4_if_mayor_de_4_numeros.c</itemPath>
+      <itemPath>5_while_fibonacci.c</itemPath>
+      <itemPath>6_while_tablas.c</itemPath>
+      <itemPath>7_for_tablas.c</itemPath>
+      <itemPath>8_arreglos.c</itemPath>
+      <itemPath>apuntadores.c</itemPath>
       <itemPath>clase_while.c</itemPath>
+      <itemPath>ejemploapuntadores.c</itemPath>
       <itemPath>main.c</itemPath>
-      <itemPath>t_arreglos.c</itemPath>
-      <itemPath>t_arreglos_burbuja.c</itemPath>
-      <itemPath>t_arreglos_burbujaOpt.c</itemPath>
-      <itemPath>t_arreglos_max_y_min.c</itemPath>
-      <itemPath>t_arreglos_promediodedatos.c</itemPath>
-      <itemPath>t_for_tablas.c</itemPath>
-      <itemPath>t_funcionesmath.c</itemPath>
-      <itemPath>t_hola_mundo.c</itemPath>
-      <itemPath>t_if_mayor_de_3_numeros.c</itemPath>
-      <itemPath>t_if_mayor_de_4_numeros.c</itemPath>
-      <itemPath>t_menu_grados.c</itemPath>
-      <itemPath>t_precedencia_de_operadores_3_problemas.c</itemPath>
-      <itemPath>t_while_fibonacci.c</itemPath>
-      <itemPath>t_while_tablas.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -51,8 +53,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="t_menu_grados.c" ex="false" tool="0" flavor2="0">
-      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -74,40 +74,44 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="clase_while.c" ex="false" tool="0" flavor2="0">
+      <item path="10_arreglos_promediodedatos.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="main.c" ex="false" tool="0" flavor2="0">
+      <item path="11_arreglos_max_y_min.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_arreglos.c" ex="false" tool="0" flavor2="0">
+      <item path="12_arreglos_burbuja.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_arreglos_burbuja.c" ex="false" tool="0" flavor2="0">
+      <item path="13_arreglos_burbujaOpt.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_arreglos_burbujaOpt.c" ex="false" tool="0" flavor2="0">
+      <item path="14_funcionesmath.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_arreglos_max_y_min.c" ex="false" tool="0" flavor2="0">
+      <item path="15_menu_grados.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_arreglos_promediodedatos.c" ex="false" tool="0" flavor2="0">
+      <item path="1_hola_mundo.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_for_tablas.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="t_funcionesmath.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="t_hola_mundo.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="t_if_mayor_de_3_numeros.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="t_if_mayor_de_4_numeros.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="t_menu_grados.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="t_precedencia_de_operadores_3_problemas.c"
+      <item path="2_precedencia_de_operadores_3_problemas.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="t_while_fibonacci.c" ex="false" tool="0" flavor2="0">
+      <item path="3_if_mayor_de_3_numeros.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="t_while_tablas.c" ex="false" tool="0" flavor2="0">
+      <item path="4_if_mayor_de_4_numeros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="5_while_fibonacci.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="6_while_tablas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="7_for_tablas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="8_arreglos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="apuntadores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="clase_while.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ejemploapuntadores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

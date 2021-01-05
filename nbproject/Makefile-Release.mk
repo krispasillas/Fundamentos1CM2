@@ -35,22 +35,24 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/10_arreglos_promediodedatos.o \
+	${OBJECTDIR}/11_arreglos_max_y_min.o \
+	${OBJECTDIR}/12_arreglos_burbuja.o \
+	${OBJECTDIR}/13_arreglos_burbujaOpt.o \
+	${OBJECTDIR}/14_funcionesmath.o \
+	${OBJECTDIR}/15_menu_grados.o \
+	${OBJECTDIR}/1_hola_mundo.o \
+	${OBJECTDIR}/2_precedencia_de_operadores_3_problemas.o \
+	${OBJECTDIR}/3_if_mayor_de_3_numeros.o \
+	${OBJECTDIR}/4_if_mayor_de_4_numeros.o \
+	${OBJECTDIR}/5_while_fibonacci.o \
+	${OBJECTDIR}/6_while_tablas.o \
+	${OBJECTDIR}/7_for_tablas.o \
+	${OBJECTDIR}/8_arreglos.o \
+	${OBJECTDIR}/apuntadores.o \
 	${OBJECTDIR}/clase_while.o \
-	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/t_arreglos.o \
-	${OBJECTDIR}/t_arreglos_burbuja.o \
-	${OBJECTDIR}/t_arreglos_burbujaOpt.o \
-	${OBJECTDIR}/t_arreglos_max_y_min.o \
-	${OBJECTDIR}/t_arreglos_promediodedatos.o \
-	${OBJECTDIR}/t_for_tablas.o \
-	${OBJECTDIR}/t_funcionesmath.o \
-	${OBJECTDIR}/t_hola_mundo.o \
-	${OBJECTDIR}/t_if_mayor_de_3_numeros.o \
-	${OBJECTDIR}/t_if_mayor_de_4_numeros.o \
-	${OBJECTDIR}/t_menu_grados.o \
-	${OBJECTDIR}/t_precedencia_de_operadores_3_problemas.o \
-	${OBJECTDIR}/t_while_fibonacci.o \
-	${OBJECTDIR}/t_while_tablas.o
+	${OBJECTDIR}/ejemploapuntadores.o \
+	${OBJECTDIR}/main.o
 
 
 # C Compiler Flags
@@ -77,85 +79,95 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos1cm2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundamentos1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/10_arreglos_promediodedatos.o: 10_arreglos_promediodedatos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/10_arreglos_promediodedatos.o 10_arreglos_promediodedatos.c
+
+${OBJECTDIR}/11_arreglos_max_y_min.o: 11_arreglos_max_y_min.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/11_arreglos_max_y_min.o 11_arreglos_max_y_min.c
+
+${OBJECTDIR}/12_arreglos_burbuja.o: 12_arreglos_burbuja.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/12_arreglos_burbuja.o 12_arreglos_burbuja.c
+
+${OBJECTDIR}/13_arreglos_burbujaOpt.o: 13_arreglos_burbujaOpt.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/13_arreglos_burbujaOpt.o 13_arreglos_burbujaOpt.c
+
+${OBJECTDIR}/14_funcionesmath.o: 14_funcionesmath.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/14_funcionesmath.o 14_funcionesmath.c
+
+${OBJECTDIR}/15_menu_grados.o: 15_menu_grados.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/15_menu_grados.o 15_menu_grados.c
+
+${OBJECTDIR}/1_hola_mundo.o: 1_hola_mundo.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1_hola_mundo.o 1_hola_mundo.c
+
+${OBJECTDIR}/2_precedencia_de_operadores_3_problemas.o: 2_precedencia_de_operadores_3_problemas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/2_precedencia_de_operadores_3_problemas.o 2_precedencia_de_operadores_3_problemas.c
+
+${OBJECTDIR}/3_if_mayor_de_3_numeros.o: 3_if_mayor_de_3_numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/3_if_mayor_de_3_numeros.o 3_if_mayor_de_3_numeros.c
+
+${OBJECTDIR}/4_if_mayor_de_4_numeros.o: 4_if_mayor_de_4_numeros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4_if_mayor_de_4_numeros.o 4_if_mayor_de_4_numeros.c
+
+${OBJECTDIR}/5_while_fibonacci.o: 5_while_fibonacci.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/5_while_fibonacci.o 5_while_fibonacci.c
+
+${OBJECTDIR}/6_while_tablas.o: 6_while_tablas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/6_while_tablas.o 6_while_tablas.c
+
+${OBJECTDIR}/7_for_tablas.o: 7_for_tablas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/7_for_tablas.o 7_for_tablas.c
+
+${OBJECTDIR}/8_arreglos.o: 8_arreglos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/8_arreglos.o 8_arreglos.c
+
+${OBJECTDIR}/apuntadores.o: apuntadores.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/apuntadores.o apuntadores.c
+
 ${OBJECTDIR}/clase_while.o: clase_while.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/clase_while.o clase_while.c
 
+${OBJECTDIR}/ejemploapuntadores.o: ejemploapuntadores.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ejemploapuntadores.o ejemploapuntadores.c
+
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
-
-${OBJECTDIR}/t_arreglos.o: t_arreglos.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos.o t_arreglos.c
-
-${OBJECTDIR}/t_arreglos_burbuja.o: t_arreglos_burbuja.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_burbuja.o t_arreglos_burbuja.c
-
-${OBJECTDIR}/t_arreglos_burbujaOpt.o: t_arreglos_burbujaOpt.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_burbujaOpt.o t_arreglos_burbujaOpt.c
-
-${OBJECTDIR}/t_arreglos_max_y_min.o: t_arreglos_max_y_min.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_max_y_min.o t_arreglos_max_y_min.c
-
-${OBJECTDIR}/t_arreglos_promediodedatos.o: t_arreglos_promediodedatos.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_arreglos_promediodedatos.o t_arreglos_promediodedatos.c
-
-${OBJECTDIR}/t_for_tablas.o: t_for_tablas.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_for_tablas.o t_for_tablas.c
-
-${OBJECTDIR}/t_funcionesmath.o: t_funcionesmath.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_funcionesmath.o t_funcionesmath.c
-
-${OBJECTDIR}/t_hola_mundo.o: t_hola_mundo.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_hola_mundo.o t_hola_mundo.c
-
-${OBJECTDIR}/t_if_mayor_de_3_numeros.o: t_if_mayor_de_3_numeros.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_if_mayor_de_3_numeros.o t_if_mayor_de_3_numeros.c
-
-${OBJECTDIR}/t_if_mayor_de_4_numeros.o: t_if_mayor_de_4_numeros.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_if_mayor_de_4_numeros.o t_if_mayor_de_4_numeros.c
-
-${OBJECTDIR}/t_menu_grados.o: t_menu_grados.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_menu_grados.o t_menu_grados.c
-
-${OBJECTDIR}/t_precedencia_de_operadores_3_problemas.o: t_precedencia_de_operadores_3_problemas.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_precedencia_de_operadores_3_problemas.o t_precedencia_de_operadores_3_problemas.c
-
-${OBJECTDIR}/t_while_fibonacci.o: t_while_fibonacci.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_while_fibonacci.o t_while_fibonacci.c
-
-${OBJECTDIR}/t_while_tablas.o: t_while_tablas.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/t_while_tablas.o t_while_tablas.c
 
 # Subprojects
 .build-subprojects:
