@@ -41,6 +41,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/13_arreglos_burbujaOpt.o \
 	${OBJECTDIR}/14_funcionesmath.o \
 	${OBJECTDIR}/15_menu_grados.o \
+	${OBJECTDIR}/16_Arrays_Cadenas.o \
 	${OBJECTDIR}/1_hola_mundo.o \
 	${OBJECTDIR}/2_precedencia_de_operadores_3_problemas.o \
 	${OBJECTDIR}/3_if_mayor_de_3_numeros.o \
@@ -108,6 +109,11 @@ ${OBJECTDIR}/15_menu_grados.o: 15_menu_grados.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/15_menu_grados.o 15_menu_grados.c
+
+${OBJECTDIR}/16_Arrays_Cadenas.o: 16_Arrays_Cadenas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/16_Arrays_Cadenas.o 16_Arrays_Cadenas.c
 
 ${OBJECTDIR}/1_hola_mundo.o: 1_hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}

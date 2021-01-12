@@ -18,6 +18,7 @@
       <itemPath>13_arreglos_burbujaOpt.c</itemPath>
       <itemPath>14_funcionesmath.c</itemPath>
       <itemPath>15_menu_grados.c</itemPath>
+      <itemPath>16_Arrays_Cadenas.c</itemPath>
       <itemPath>1_hola_mundo.c</itemPath>
       <itemPath>2_precedencia_de_operadores_3_problemas.c</itemPath>
       <itemPath>3_if_mayor_de_3_numeros.c</itemPath>
@@ -53,6 +54,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="16_Arrays_Cadenas.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -85,6 +88,8 @@
       <item path="14_funcionesmath.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="15_menu_grados.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="16_Arrays_Cadenas.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="1_hola_mundo.c" ex="false" tool="0" flavor2="0">
       </item>
