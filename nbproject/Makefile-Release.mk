@@ -42,6 +42,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/14_funcionesmath.o \
 	${OBJECTDIR}/15_menu_grados.o \
 	${OBJECTDIR}/16_Arrays_Cadenas.o \
+	${OBJECTDIR}/17_cadena_cantidad_letras.o \
+	${OBJECTDIR}/18_headers.o \
 	${OBJECTDIR}/1_hola_mundo.o \
 	${OBJECTDIR}/2_precedencia_de_operadores_3_problemas.o \
 	${OBJECTDIR}/3_if_mayor_de_3_numeros.o \
@@ -114,6 +116,16 @@ ${OBJECTDIR}/16_Arrays_Cadenas.o: 16_Arrays_Cadenas.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/16_Arrays_Cadenas.o 16_Arrays_Cadenas.c
+
+${OBJECTDIR}/17_cadena_cantidad_letras.o: 17_cadena_cantidad_letras.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/17_cadena_cantidad_letras.o 17_cadena_cantidad_letras.c
+
+${OBJECTDIR}/18_headers.o: 18_headers.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/18_headers.o 18_headers.c
 
 ${OBJECTDIR}/1_hola_mundo.o: 1_hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
