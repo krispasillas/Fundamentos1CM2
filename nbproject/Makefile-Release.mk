@@ -44,6 +44,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/16_Arrays_Cadenas.o \
 	${OBJECTDIR}/17_cadena_cantidad_letras.o \
 	${OBJECTDIR}/18_headers.o \
+	${OBJECTDIR}/19_Ficheros.o \
 	${OBJECTDIR}/1_hola_mundo.o \
 	${OBJECTDIR}/2_precedencia_de_operadores_3_problemas.o \
 	${OBJECTDIR}/3_if_mayor_de_3_numeros.o \
@@ -126,6 +127,11 @@ ${OBJECTDIR}/18_headers.o: 18_headers.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/18_headers.o 18_headers.c
+
+${OBJECTDIR}/19_Ficheros.o: 19_Ficheros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/19_Ficheros.o 19_Ficheros.c
 
 ${OBJECTDIR}/1_hola_mundo.o: 1_hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}

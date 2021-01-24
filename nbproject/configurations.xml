@@ -22,6 +22,7 @@
       <itemPath>16_Arrays_Cadenas.c</itemPath>
       <itemPath>17_cadena_cantidad_letras.c</itemPath>
       <itemPath>18_headers.c</itemPath>
+      <itemPath>19_Ficheros.c</itemPath>
       <itemPath>1_hola_mundo.c</itemPath>
       <itemPath>2_precedencia_de_operadores_3_problemas.c</itemPath>
       <itemPath>3_if_mayor_de_3_numeros.c</itemPath>
@@ -57,7 +58,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="18_headers.c" ex="false" tool="0" flavor2="0">
+      <item path="19_Ficheros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="funciones2.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -99,6 +100,8 @@
       <item path="17_cadena_cantidad_letras.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="18_headers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="19_Ficheros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="1_hola_mundo.c" ex="false" tool="0" flavor2="0">
       </item>
